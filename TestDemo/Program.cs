@@ -10,6 +10,8 @@ namespace TestDemo
             //var reverseInt = ReverseInt.Reverse(120);
             //Console.WriteLine(palindrome);
             var palindrome = PalindromeNumber.IsPalindrome(121);
+
+            var bytePlindrome = PalindromeNumber.IsPalindromeNoStr(121);
             Console.WriteLine(palindrome);
         }
 
