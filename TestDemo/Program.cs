@@ -14,8 +14,11 @@ namespace TestDemo
             //var bytePlindrome = PalindromeNumber.IsPalindromeNoStr(121);
             //Console.WriteLine(palindrome);
 
-            var atoi = Atoi.MyAtoi("");
-            Console.WriteLine(atoi);
+            //var atoi = Atoi.MyAtoi("");
+            //Console.WriteLine(atoi);
+
+            var validPaarentheses = ValidParentheses.IsValid("()");
+            Console.WriteLine(validPaarentheses);
         }
 
 
