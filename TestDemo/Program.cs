@@ -17,8 +17,8 @@ namespace TestDemo
             //var atoi = Atoi.MyAtoi("");
             //Console.WriteLine(atoi);
 
-            var validPaarentheses = ValidParentheses.IsValid("()");
-            Console.WriteLine(validPaarentheses);
+            //var validPaarentheses = ValidParentheses.IsValid("()");
+            //Console.WriteLine(validPaarentheses);
         }
 
 
