@@ -10,12 +10,13 @@ namespace TestDemo.Test
     {
         private readonly RemoveLinkedList _removeLinkedList;
 
+
         public RemoveLinkedListTest()
         {
             this._removeLinkedList = new RemoveLinkedList();
         }
 
-        public ListNode arrs = new ListNode(1)
+        readonly ListNode arrs = new ListNode(1)
         {
             next = new ListNode(2)
             {
@@ -34,8 +35,7 @@ namespace TestDemo.Test
                 }
             }
         };
-
-        public ListNode target = new ListNode(1)
+        readonly ListNode target = new ListNode(1)
         {
             next = new ListNode(2)
             {
@@ -55,8 +55,10 @@ namespace TestDemo.Test
             var removeInt = 6;
 
             var removed = this._removeLinkedList.RemoveElements(arrs, removeInt);
+            var removedWhile = this._removeLinkedList.RemoveElementsWithWhileMethod(arrs, removeInt);
 
             Assert.True(this.AssertObjEquals(removed, target));
+            Assert.True(this.AssertObjEquals(removedWhile, target));
         }
 
         public bool AssertObjEquals(ListNode test, ListNode target)

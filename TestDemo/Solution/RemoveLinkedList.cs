@@ -4,6 +4,9 @@ using System.Text;
 
 namespace TestDemo.Solution
 {
+    /// <summary>
+    /// 移除链表中指定的数字
+    /// </summary>
     public class RemoveLinkedList
     {
         public ListNode RemoveElements(ListNode head, int val)
