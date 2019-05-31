@@ -4,6 +4,9 @@ using System.Text;
 
 namespace TestDemo.Solution
 {
+    /// <summary>
+    /// 罗马整数
+    /// </summary>
     class RomanToInteger
     {
         public int Solution(string s)
