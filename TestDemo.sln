@@ -13,6 +13,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListDemo", "ListDemo\ListDe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueDemo", "QueueDemo\QueueDemo.csproj", "{C0E9F13D-C1A3-4BC3-90E3-1877BE89D002}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountAndSay", "CountAndSay\CountAndSay.csproj", "{D98DAEBB-1FCD-4CBF-9C75-95AD01CBF196}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomeToInt", "RomeToInt\RomeToInt.csproj", "{72BA24AB-BB3C-48FC-8605-AC5EAC5CFC9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{C0E9F13D-C1A3-4BC3-90E3-1877BE89D002}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0E9F13D-C1A3-4BC3-90E3-1877BE89D002}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0E9F13D-C1A3-4BC3-90E3-1877BE89D002}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D98DAEBB-1FCD-4CBF-9C75-95AD01CBF196}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D98DAEBB-1FCD-4CBF-9C75-95AD01CBF196}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D98DAEBB-1FCD-4CBF-9C75-95AD01CBF196}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D98DAEBB-1FCD-4CBF-9C75-95AD01CBF196}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72BA24AB-BB3C-48FC-8605-AC5EAC5CFC9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72BA24AB-BB3C-48FC-8605-AC5EAC5CFC9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72BA24AB-BB3C-48FC-8605-AC5EAC5CFC9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72BA24AB-BB3C-48FC-8605-AC5EAC5CFC9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
